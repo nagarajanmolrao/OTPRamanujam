@@ -1,14 +1,15 @@
 # rao_OTP_Generator
 A CLI application to generate 2FA TOTP codes
 
+### DESCRIPTION
 
-###DESCRIPTION
 This python application was built to generate 2FA TOTP codes for my personal accounts on Desktop.
 Initially, I used "Authy" as the to-go application to get cross-platform to the OTP codes.
 However, the downside of "Authy" for me was the need of previously authenticated device for new device registration.
 I am nerd who frequently hop around various devices, so I decided to create this application to overcome this securely.
 
-###HOW IT WORKS
+### HOW IT WORKS
+
 - Accounts with their respective secret key are initially provided to the application through a json file
          *(refer "accounts-template.json" file in the repository)*
 
@@ -27,7 +28,8 @@ then this key is used to decrypt the actual decryption key stored in "encryptedA
   then the encrypted accounts file is decrypted and loaded as a dictionary, read and printed as a menu,
   from where one can select the account, and the OTP is generated.
   
-###INSTALLATION
+### INSTALLATION
+
 * In order for some dependencies to install on Windows, Installation of "Build Tools for Visual Studio 2019"
 is necessary.
   - Visit the link below to download the same
