@@ -35,6 +35,11 @@ is necessary.
   - Visit the link below to download the same
     
     https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
+	
+* Please Refer to link below if there are errors while installing pycryptodome package
+	
+	https://pycryptodome.readthedocs.io/en/latest/src/installation.html
+
 * You can clone this repository and install all the python dependencies from pip.
 
     `pip install -r requirements.txt`
