@@ -1,4 +1,4 @@
-# rao_OTP_Generator
+OTPRamanujam
 A CLI application to generate 2FA TOTP codes
 
 ### DESCRIPTION
