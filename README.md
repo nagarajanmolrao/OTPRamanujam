@@ -1,4 +1,4 @@
-OTPRamanujam
+# OTPRamanujam
 A CLI application to generate 2FA TOTP codes
 
 ### DESCRIPTION
